@@ -1,0 +1,38 @@
+body {
+    background-image: url('bg1.jpg'); /* Set your initial background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Media query for changing the background image on smaller screens */
+@media (max-width: 991px) {
+    body {
+        background-image: url('bg2.jpg'); /* Set your new background image */
+    }
+}
+
+h1 {
+		font-family: 'Annie Use Your Telescope', cursive;
+		font-size: 80px;
+		text-align: center;
+		padding-top: 120px;
+		padding-bottom: 75px;
+		color:cornflowerblue;
+		text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+	}
+	
+#celula{
+	font-family: Garamond, serif;
+	background-color:cornflowerblue;
+	font-size: 18px;
+	text-align: center;
+	width: 75%;
+	display: flex;
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+}
+
+a {
+	 text-decoration: none;
+}
